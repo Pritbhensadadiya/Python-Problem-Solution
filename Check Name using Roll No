@@ -1,0 +1,22 @@
+dic = {
+    1: "prit",
+    2: "Shubham",
+    3: "Dev",
+    4: "Yash",
+    5: "Girish",
+    6: "Jay",
+    7: "jaggu",
+    8: "Bhim",
+    9: "Ramesh",
+    10: "Jayesh",
+}
+
+while True:
+    roll_no = int(input("Enter roll no. to check name (or enter 0 to exit): "))
+    
+    if roll_no == 0:
+        print("Exiting the program.")
+        break
+    
+    name = dic.get(roll_no, "Roll number not found in the dictionary")
+    print("Your name is:", name)
