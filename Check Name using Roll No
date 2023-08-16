@@ -12,10 +12,10 @@ dic = {
 }
 
 while True:
-    roll_no = int(input("Enter roll no. to check name (or enter 0 to exit): "))
+    roll_no = int(input("Enter roll no.to check name (press 0 for exit): "))
     
     if roll_no == 0:
-        print("Exiting the program.")
+        print("YOU ARE EXIT..")
         break
     
     name = dic.get(roll_no, "Roll number not found in the dictionary")
