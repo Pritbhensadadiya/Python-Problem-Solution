@@ -1,3 +1,7 @@
+print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+print ("         Rock-Paper-Scissors           ")
+print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
 import random
 
 options = ("rock", "paper", "scissors")
